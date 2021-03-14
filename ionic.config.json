@@ -1,0 +1,7 @@
+{
+  "name": "IATest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

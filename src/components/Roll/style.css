@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+* {
+  font-family: "IRANYekanWeb" !important;
+  direction: rtl;
+}
+.questionsCard {
+  max-width: 1000px;
+  width: 90%;
+  position: relative;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.Title {
+  text-align: center;
+  width: 100%;
+}
+.question {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.button {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+.buttonRoll {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  display: flex;
+}
+
+#rollContainer {
+  width: 100%;
+  height: 212px;
+  padding-top: 24px;
+}
+/* hardware accelatator class */
+.trans3d {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform-style: preserve-3d;
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform-style: preserve-3d;
+  -ms-transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 0);
+}
+#rollcParent {
+  -webkit-transform: rotateX(-5deg);
+  transform: rotateX(-5deg);
+  transform-style: preserve-3d;
+  margin-top: 100px;
+}
+#rollContainer {
+  -webkit-perspective: 600px;
+  perspective: 600px;
+}
+#rollItemsContainer {
+  -webkit-transform: -webkit-translate3d(0px, 0px, -500px) rotateY(-360deg) translateX(10%);
+  transform: translate3d(0px, 0px, -500px) rotateY(0deg) translateX(10%);
+  -webkit-transform-origin: 95% 50%;
+  transform-origin: 95% 50%;
+  -webkit-transition: 17.5s cubic-bezier(0, 0.8, 0.2, 1);
+  transition: 17.5s cubic-bezier(0, 0.8, 0.2, 1);
+  position: relative;
+  right: 50%;
+}
+
+#rollItemsContainer > figure:nth-child(1) {
+  transform: translate3d(0px, 0px, 500px) rotateY(0deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(0deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+
+#rollItemsContainer > figure:nth-child(2) {
+  transform: translate3d(0px, 0px, 500px) rotateY(36deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(36deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+
+#rollItemsContainer > figure:nth-child(3) {
+  transform: translate3d(0px, 0px, 500px) rotateY(72deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(72deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+
+#rollItemsContainer > figure:nth-child(4) {
+  transform: translate3d(0px, 0px, 500px) rotateY(108deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(108deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+
+#rollItemsContainer > figure:nth-child(5) {
+  transform: translate3d(0px, 0px, 500px) rotateY(144deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(144deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+
+#rollItemsContainer > figure:nth-child(6) {
+  transform: translate3d(0px, 0px, 500px) rotateY(180deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(180deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+
+#rollItemsContainer > figure:nth-child(7) {
+  transform: translate3d(0px, 0px, 500px) rotateY(216deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(216deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+
+#rollItemsContainer > figure:nth-child(8) {
+  transform: translate3d(0px, 0px, 500px) rotateY(252deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(252deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+
+#rollItemsContainer > figure:nth-child(9) {
+  transform: translate3d(0px, 0px, 500px) rotateY(288deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(288deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+
+#rollItemsContainer > figure:nth-child(10) {
+  transform: translate3d(0px, 0px, 500px) rotateY(324deg);
+  -webkit-transform: translate3d(0px, 0px, 500px) rotateY(324deg);
+  transform-origin: 50% 50% -500px;
+  -webkit-transform-origin: 50% 50% -500px;
+  visibility: visible;
+}
+.rollSuperParent {
+  height: 400px;
+  transform: translateX(2.5%);
+}
+.rollItem {
+  position: absolute;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px #353535;
+}
+.rollItemInner {
+  width: 220px;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 2px solid #82869d;
+  border-radius: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 50px #1b1b42 inset;
+}
+.rollItemInner > span {
+  color: #151231;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: Arial !important;
+}
+.rollIndicator {
+  width: 4px;
+  height: 200px;
+  background: red;
+  position: absolute;
+  top: 52%;
+  right: 52%;
+  transform: translate(50%, -50%);
+  z-index: 9999;
+}

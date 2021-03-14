@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+  font-family: "IRANYekanWeb" !important;
+  direction: rtl;
+}
+.loginCard {
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.Title {
+  text-align: center;
+  width: 100%;
+}
+.inputContainer {
+  margin-top: 20px;
+}
+.button {
+  margin-top: 20px;
+}

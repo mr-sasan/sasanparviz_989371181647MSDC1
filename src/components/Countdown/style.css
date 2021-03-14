@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+  font-family: "IRANYekanWeb" !important;
+  direction: rtl;
+}
+.title {
+  font-size: 12px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ccc;
+}
+.text {
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-right: 5px;
+  color: rgb(173, 173, 173);
+}
