@@ -18,8 +18,8 @@
 each branch of this repository is one Microservice (I could devide it into more Microservices but there was no time for it!).
 when you close all of these branches in your machine its Important to pull Mongo:latest from docker hub, these micro services use it for database.
 
-run this command and build container images => docker-compose build
-after this you can run docker-compose up
+run this command and build container images => ```docker-compose build```
+after this you can run ```docker-compose up```
 
 current container running on my machine:
 ```
