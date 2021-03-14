@@ -37,6 +37,8 @@ iatestpanelbackend => -port "3001:3001"
 
 _Port of MongoDB should be 27017_
 
+make sure you create Database called ```IATest``` becuase application will use this database name.
+
 and that's it! hope you enjoy.
 
 writen with <3 by Sasan Parviz 
