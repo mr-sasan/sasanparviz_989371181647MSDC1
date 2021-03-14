@@ -32,11 +32,11 @@ afcb0d059b81   test_iatestpanel          "docker-entrypoint.s…"   About an hou
 ```
 
 the port of Backend Microservices has been hardcoded unforchunetly :D (duo to lack of time) so make sure you run both of Backend Microservices on Port 3000 and 3001 on you local machine!
-iatestbackend => -port "3000:3000"
+```
+iatestbackend      => -port "3000:3000"
 iatestpanelbackend => -port "3001:3001"
-
-_Port of MongoDB should be 27017_
-
+MongoDB            => -port "27017:27017"
+```
 make sure you create Database called ```IATest``` becuase application will use this database name.
 
 and that's it! hope you enjoy.
