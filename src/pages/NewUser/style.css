@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+* {
+  font-family: "IRANYekanWeb" !important;
+  direction: rtl;
+}
+.card {
+  max-width: 500px;
+  width: 100%;
+}
+.center {
+  top: 50%;
+  right: 50%;
+  position: absolute;
+  transform: translate(50%, -50%);
+}
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

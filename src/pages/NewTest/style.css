@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+  font-family: "IRANYekanWeb" !important;
+  direction: rtl;
+}
+.card {
+  width: unset;
+  max-width: unset;
+}
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.questionBoxContainer {
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+}
+.questions {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+  line-height: 25px !important;
+}
+.chartContainer {
+  height: 500px;
+  background: #fff;
+  border-radius: 10px;
+}

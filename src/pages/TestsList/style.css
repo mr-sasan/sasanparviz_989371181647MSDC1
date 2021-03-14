@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+  font-family: "IRANYekanWeb" !important;
+  direction: rtl;
+}
+.tableTestsList {
+  height: 400px;
+  width: "100%";
+}
+.tableTestsList * {
+  color: #fff;
+  text-align: right !important;
+  direction: rtl;
+}
